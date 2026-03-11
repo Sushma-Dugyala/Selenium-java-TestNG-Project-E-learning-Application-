@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-E_Learning_Suite" class="navigator-link">
+              <span class="suite-name border-failed">E-Learning Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-E_Learning_Suite" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\Elearning-Studyhub\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-E_Learning_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-E_Learning_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-E_Learning_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-E_Learning_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-E_Learning_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-E_Learning_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-E_Learning_Suite" class="hide-methods failed suite-E_Learning_Suite"> (hide)</a> <!-- hide-methods failed suite-E_Learning_Suite -->
+                      <a href="#" panel-name="suite-E_Learning_Suite" class="show-methods failed suite-E_Learning_Suite"> (show)</a> <!-- show-methods failed suite-E_Learning_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-E_Learning_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.SearchTest" class="method navigator-link" hash-for-method="verifySearchFunctionality">verifySearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-E_Learning_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-E_Learning_Suite" class="hide-methods passed suite-E_Learning_Suite"> (hide)</a> <!-- hide-methods passed suite-E_Learning_Suite -->
+                      <a href="#" panel-name="suite-E_Learning_Suite" class="show-methods passed suite-E_Learning_Suite"> (show)</a> <!-- show-methods passed suite-E_Learning_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-E_Learning_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.NavigationTest" class="method navigator-link" hash-for-method="completeNavigationFlowTest">completeNavigationFlowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.RegisterLoginTest" class="method navigator-link" hash-for-method="registerAndLoginTest(Sushma, sushma1@gmail.com, Pass@123)">registerAndLoginTest(Sushma, sushma1@gmail.com, Pass@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.RegisterLoginTest" class="method navigator-link" hash-for-method="registerAndLoginTest(Ravi, ravi3@gmail.com, Pass@789)">registerAndLoginTest(Ravi, ravi3@gmail.com, Pass@789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.ContactTest" class="method navigator-link" hash-for-method="verifyBlankValidationMessage">verifyBlankValidationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.ContactTest" class="method navigator-link" hash-for-method="verifyContactSubmitRedirectsTo404">verifyContactSubmitRedirectsTo404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.ContactTest" class="method navigator-link" hash-for-method="verifyPhoneNumberDefect">verifyPhoneNumberDefect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.ProfileTest" class="method navigator-link" hash-for-method="verifyProfilePageNavigation">verifyProfilePageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-E_Learning_Suite" title="testcases.ProfileTest" class="method navigator-link" hash-for-method="verifyUpdateProfilePageNavigation">verifyUpdateProfilePageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-E_Learning_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-E_Learning_Suite" class="panel E_Learning_Suite">
+          <div class="suite-E_Learning_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFunctionality">
+                  </a> <!-- verifySearchFunctionality -->
+                  <span class="method-name">verifySearchFunctionality</span>
+                  <div class="stack-trace">java.lang.AssertionError: Search did not redirect to 404 page as expected expected [true] but found [false]
+	at testcases.SearchTest.verifySearchFunctionality(SearchTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E_Learning_Suite-class-failed -->
+          <div class="suite-E_Learning_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankValidationMessage">
+                  </a> <!-- verifyBlankValidationMessage -->
+                  <span class="method-name">verifyBlankValidationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactSubmitRedirectsTo404">
+                  </a> <!-- verifyContactSubmitRedirectsTo404 -->
+                  <span class="method-name">verifyContactSubmitRedirectsTo404</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPhoneNumberDefect">
+                  </a> <!-- verifyPhoneNumberDefect -->
+                  <span class="method-name">verifyPhoneNumberDefect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E_Learning_Suite-class-passed -->
+          <div class="suite-E_Learning_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.RegisterLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAndLoginTest(Sushma, sushma1@gmail.com, Pass@123)">
+                  </a> <!-- registerAndLoginTest(Sushma, sushma1@gmail.com, Pass@123) -->
+                  <span class="method-name">registerAndLoginTest</span>
+                  <span class="parameters">(Sushma,sushma1@gmail.com,Pass@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAndLoginTest(Ravi, ravi3@gmail.com, Pass@789)">
+                  </a> <!-- registerAndLoginTest(Ravi, ravi3@gmail.com, Pass@789) -->
+                  <span class="method-name">registerAndLoginTest</span>
+                  <span class="parameters">(Ravi,ravi3@gmail.com,Pass@789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E_Learning_Suite-class-passed -->
+          <div class="suite-E_Learning_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProfilePageNavigation">
+                  </a> <!-- verifyProfilePageNavigation -->
+                  <span class="method-name">verifyProfilePageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateProfilePageNavigation">
+                  </a> <!-- verifyUpdateProfilePageNavigation -->
+                  <span class="method-name">verifyUpdateProfilePageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E_Learning_Suite-class-passed -->
+          <div class="suite-E_Learning_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.NavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeNavigationFlowTest">
+                  </a> <!-- completeNavigationFlowTest -->
+                  <span class="method-name">completeNavigationFlowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E_Learning_Suite-class-passed -->
+        </div> <!-- panel E_Learning_Suite -->
+        <div panel-name="test-xml-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\Elearning-Studyhub\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;E-Learning Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Full Regression&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.RegisterLoginTest&quot;/&gt;
+      &lt;class name=&quot;testcases.SearchTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ProfileTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ContactTest&quot;/&gt;
+      &lt;class name=&quot;testcases.NavigationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Full Regression --&gt;
+&lt;/suite&gt; &lt;!-- E-Learning Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for E-Learning Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Full Regression (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for E-Learning Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for E-Learning Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_E_Learning_Suite');
+function tableData_E_Learning_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'completeNavigationFlowTest')
+data.setCell(0, 2, 'testcases.NavigationTest')
+data.setCell(0, 3, 33240);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyUpdateProfilePageNavigation')
+data.setCell(1, 2, 'testcases.ProfileTest')
+data.setCell(1, 3, 18720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyContactSubmitRedirectsTo404')
+data.setCell(2, 2, 'testcases.ContactTest')
+data.setCell(2, 3, 16499);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registerAndLoginTest')
+data.setCell(3, 2, 'testcases.RegisterLoginTest')
+data.setCell(3, 3, 13214);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPhoneNumberDefect')
+data.setCell(4, 2, 'testcases.ContactTest')
+data.setCell(4, 3, 12445);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerAndLoginTest')
+data.setCell(5, 2, 'testcases.RegisterLoginTest')
+data.setCell(5, 3, 12190);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifySearchFunctionality')
+data.setCell(6, 2, 'testcases.SearchTest')
+data.setCell(6, 3, 11159);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyBlankValidationMessage')
+data.setCell(7, 2, 'testcases.ContactTest')
+data.setCell(7, 3, 5792);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProfilePageNavigation')
+data.setCell(8, 2, 'testcases.ProfileTest')
+data.setCell(8, 3, 1785);
+window.suiteTableData['E_Learning_Suite']= { tableData: data, tableDiv: 'times-div-E_Learning_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-E_Learning_Suite">
+              </div> <!-- times-div-E_Learning_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for E-Learning Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-E_Learning_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RegisterLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">8208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAndLoginTest(Sushma, sushma1@gmail.com, Pass@123)</span>
+                <span class="method-start">8306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">22937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAndLoginTest(Ravi, ravi3@gmail.com, Pass@789)</span>
+                <span class="method-start">22942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">36544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupSearch</span>
+                <span class="method-start">39282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchFunctionality</span>
+                <span class="method-start">42242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53413 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupProfile</span>
+                <span class="method-start">57267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProfilePageNavigation</span>
+                <span class="method-start">60313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">62383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupProfile</span>
+                <span class="method-start">64889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateProfilePageNavigation</span>
+                <span class="method-start">67360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86086 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">86449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupContact</span>
+                <span class="method-start">88300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankValidationMessage</span>
+                <span class="method-start">92905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">99057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupContact</span>
+                <span class="method-start">100960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPhoneNumberDefect</span>
+                <span class="method-start">106058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">118875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupContact</span>
+                <span class="method-start">121221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactSubmitRedirectsTo404</span>
+                <span class="method-start">123671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140179 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">140524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupNavigation</span>
+                <span class="method-start">143589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeNavigationFlowTest</span>
+                <span class="method-start">146234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179477 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

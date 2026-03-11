@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="E-Learning Suite">
+ <test name="Full Regression">
+  <classes>
+    <class name="testcases.RegisterLoginTest"/>
+    <class name="testcases.SearchTest"/>
+    <class name="testcases.ProfileTest"/>
+    <class name="testcases.ContactTest"/>
+     <class name="testcases.NavigationTest"/>
+  </classes>
+        </test>
+</suite>
+
