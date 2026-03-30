@@ -73,9 +73,12 @@ Elearning-Studyhub
 ## ▶️ How to Execute Tests
 
 1. Clone the repository
-2. Open in Eclipse / IntelliJ IDEA
-3. Install dependencies using Maven 
-4. Execute tests via TestNG or run 'testng.xml'
+   ```
+      https://github.com/Sushma-Dugyala/Selenium-java-TestNG-Project-E-learning-Application-.git
+   ```
+3. Open in Eclipse / IntelliJ IDEA
+4. Install dependencies using Maven 
+5. Execute tests via TestNG or run 'testng.xml'
 
 ---
 
