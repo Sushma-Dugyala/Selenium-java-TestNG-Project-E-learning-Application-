@@ -41,7 +41,7 @@ The following UI functionalities are automated:
 ---
 
 ## 📂 Project Structure
-
+```
 Elearning-Studyhub
  ├── src/main/java
  │   ├── base
@@ -67,7 +67,7 @@ Elearning-Studyhub
  ├── src/test/resources
  ├── test-output
  └── pom.xml
-
+```
 ---
 
 ## ▶️ How to Execute Tests
